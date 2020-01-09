@@ -30,7 +30,7 @@ body {
 
 .button {
 	background-color: #4CAFFF;
-	
+
 	font-family: opensans;
 	text-align: center;
 	font-size: 25px;
@@ -53,11 +53,11 @@ body {
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Chrome, Opera and Firefox */
 
-	/* 
+	/*
 	Prevent double-tapping on button from zooming page on mobile
 	https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
 	*/
-	touch-action: manipulation; 
+	touch-action: manipulation;
 }
 
 .button:hover {
@@ -65,4 +65,14 @@ body {
 }
 .button:active {
   background-color: #5591ff;
+}
+
+.fa-heart-o {
+	color: red;
+	cursor: pointer;
+  }
+
+.fa-heart {
+	color: red;
+	cursor: pointer;
 }
